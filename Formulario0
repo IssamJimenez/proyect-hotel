@@ -1,0 +1,25 @@
+<?php
+	if (isset($_POST['submit'])) {
+	  var_dump($_POST);
+	}
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario con php - issam</title>
+</head>
+<body>
+<h2>Formulario Html - php</h2><span>Issam jimenez</span>
+<form method="post" action="formulario2.php">
+	<h3>Ingrese sus datos.</h3>
+	<label for="nombre">Nombre(s) y apellidos.</label>
+	<p><input type="text" name="nombre"></p>
+	<label for="edad">Edad.</label>
+	<p><input type="text" name="edad"></p>
+	<input type="submit" name="submit" valaue="enviar">
+</form>
+</body>
+</html>
